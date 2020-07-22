@@ -1,0 +1,912 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #333;
+    color:#fff;
+}
+.icon-bar{
+    background-color:orangered;
+}
+
+.container{
+    padding: 20px;
+    background: #fff;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    line-height: 1.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+
+    background: url('./image/photo-1507842217343-583bb7270b66.jfif') 
+    no-repeat center center/cover;
+    height: 100vh;
+}
+.show-case{
+    background: rgba(26,82,118,.4);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar{
+    width: 90%;
+    margin: 10px auto;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    display: grid;
+    grid-template-columns: 3fr 5fr 3fr;
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 1rem 1rem 1rem 0;
+    /* margin: ; */
+}
+.nav-bar .heading {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-bar .heading i{
+    font-size: 5rem;
+    color: #F1C40F;
+    padding: 1rem;
+
+}
+
+.nav-bar .heading h1{
+    color: #2E4053;
+    font-size: 3rem ;
+}
+
+.nav-bar .links ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.current{
+    color: #F1C40F;
+}
+.nav-bar .links ul li a{
+    color: #333;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.nav-bar .links ul li a:hover{
+    color: #F1C40F;
+    border-bottom: 2px#F1C40F solid;
+}
+
+.nav-bar .call {
+    font-size: .8rem;
+    background:#F1C40F;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-bar .call i{
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+
+.nav-bar .call span{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.boxes{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    top:-15rem;
+}
+
+.boxes .box{
+    background: #333;
+    padding: 2rem 3rem;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+    align-items: center;
+    transition: all .3s ease-in;
+}
+
+.boxes .box i{
+    font-size: 5rem;
+    padding: 1rem;
+    color:#F1C40F;
+}
+
+.boxes .box div p{
+    font-size: .8rem;
+}
+.boxes .box div h2{
+    font-size: 1.3rem;
+}
+
+
+.boxes .box:hover{
+    background:#F1C40F;
+    cursor: pointer;
+}
+
+.boxes .box:hover i{
+    color: #fff;
+}
+.underline{
+    color:#2E4053;
+    text-align: center;
+}
+.underline .hr{
+    border-bottom: 6px #F1C40F solid ;
+    width: 6rem;
+    position: relative;
+    left: 46%;
+    top:-2rem;
+}
+
+.container{
+    width: 80%;
+    margin: 10rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    overflow: hidden;
+}
+
+.container .item .img{
+    width: 90%;
+    position: relative;
+    margin: 3rem auto;
+}
+
+.container .item .img img{
+    width: 100%;
+}
+
+.container .item .about{
+    color:#2E4053;
+    text-align:justify;
+    padding: .3rem;
+}
+.container .item .about h2,
+.container .item .about p{
+    margin: .8rem .3rem;
+}
+
+.container .item .price img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.container .item .price{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    align-items: center;
+    width: 90%;
+    margin: .5rem auto;
+}
+
+.container .item .price h4{
+    color:#333;
+}
+.container .item .price .cost{
+    background-color: #F1C40F;
+    height: 100%;
+}
+
+.container .item .price .cost h3{
+    text-align: center;
+    margin-top: 1rem;
+    /* margin: auto 0; */
+}
+
+.enquiry{
+    margin: 10rem auto;
+    background: url('./image/college_student_campus_18\ \(1\).jpeg') no-repeat center /cover;
+    background-attachment: fixed;
+    height: 40rem;
+}
+
+.enquiry .grad{
+    background: rgba(14,47,68,.5);
+    /* color:rgb(37, 45, 94); */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 1rem;
+    
+    justify-content: center;
+}
+.enquiry .grad :last-child{
+    color: #fff;
+    padding: 20px;
+}
+.enquiry .grad .a h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-top: 3rem;
+    
+}
+.enquiry .grad .a{
+    text-align: center;
+    background-color: #F1C40F;
+   color: #fff;
+}
+
+.enquiry .grad .a p{
+    padding: 2rem;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.enquiry .grad :last-child form select,
+.enquiry form input,
+ .enquiry form  textarea{
+    display: block;
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid #F1C40F;
+    width: 80%;
+    margin: 5px auto;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+}
+
+.enquiry .grad :last-child form select::placeholder,
+.enquiry form input::placeholder,
+ .enquiry form  textarea::placeholder{
+    color: #fff;
+
+ }
+
+ .enquiry .grad :last-child form select option{
+     background: #F1C40F;
+     color: #fff;
+ }
+
+ .enquiry .grad .link{
+     display: inline-block;
+     color: #fff;
+     padding: .8rem 1.5rem;
+     margin-left: 4.0rem;
+     border: 2px solid #F1C40F;
+ }
+
+ .enquiry .grad .link:hover{
+     background: #F1C40F;}
+
+ 
+
+.dis{
+    opacity: 0;
+
+    transition: all .2s ease-in;
+    
+}
+.show{
+   opacity: 1;
+   transform: translateY(50);
+}
+
+.card{
+    width: 80%;
+    margin: 10rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+
+.card .c{
+    margin: 2rem;
+}
+
+.card .c i{
+    font-size: 4rem;
+    color: #F1C40F;
+    padding: 2rem;
+}
+
+.student{
+    height: 80vh;
+    background:  url('./image/female-college-student-mst.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    margin: 15em 0; 
+}
+
+.student .case{
+    background:rgba(26,82,118,.7); 
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.student .case .text{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.student .views{
+    width: 40%;
+    overflow: hidden;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.student .views .view{
+    
+    display: flex;
+}
+
+.student .views .view .msg{
+   width: 35rem;
+   position: relative;
+   left: 0;
+   top: 0;
+   animation: animate 10s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        left:0;
+    }
+    30%{
+        left:0;
+    }
+    35%{
+        left:-33%;
+    }
+
+    60%{
+        left:-33%;
+    }
+    65%{
+        left:-66%;
+    }
+    90%{
+        left:-66%;
+    }
+    95%{
+        left:0;
+    }
+    
+}
+
+.student .views .view .msg p{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.student .views .view .msg img{
+    width: 10%;
+    border-radius: 50%;
+    margin:0 rem;
+}
+
+.events{
+    width: 80%;
+    margin: 15rem auto;
+}
+
+.events .event{
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+}
+
+.events .event .event-img{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.events .event .event-img img{
+    width: 100%;
+}
+
+.events .event .date{
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.events .event .date div{
+    padding: 2.3rem;
+    border: 2px solid #F1C40F;
+}
+
+.events .event .about{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.events .event .about h2{
+    color:#2E4053;
+    font-size: 2rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.events .event .about h2:hover{
+    color: #F1C40F;
+}
+
+.events .event .about h4{
+    font-weight: normal;
+    color: gray;
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+
+.events .event .about p{
+    text-align: justify;
+}
+
+footer{
+    background: #111;
+    margin-top: 10rem;
+    height: 25rem;
+}
+
+footer .contain{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contain .heading{
+    padding:2rem 0 ;
+    color: #fff;
+    text-align: center;
+    
+}
+.contain .logo .heading{
+    display: flex;
+    /* align-items: center; */
+}
+.contain .logo .heading i{
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+.contain p{
+    color: #999;
+}
+
+.contain .menu .list{
+    padding: 1rem;
+    
+}
+.contain .menu .list li a{
+    text-align: justify;
+    margin-left: 3rem;
+    color: #999;
+}
+
+.contain .menu .list li a:hover{
+    color: #F1C40F;
+}
+
+
+.contain .gal .gal-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: .5rem;
+    overflow: hidden;
+}
+
+
+.contain .gal .gal-img img{
+    width: 100%;
+    
+    height: 6rem;
+}
+.contain .gal .gal-img .g-i{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contain .gal .gal-img .g-i:after{
+    content: '';
+    background: rgba(26,82,118,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 6rem;
+    transform:scale(3)  translateX(0) translateY(0)  rotate(-28deg);
+    transition: transform .5s cubic-bezier(.2,1,.3,1);
+}
+
+.contain .gal .gal-img .g-i:hover:after{
+    transform:scale(3)  translateX(-75%) translateY(-75%)  rotate(-28deg);
+   
+}
+
+.contain .cont-detail .add{
+    display: flex;
+    padding: 1rem 0;
+    /* justify-content: space-around; */
+}
+.contain .cont-detail .add i{
+    font-size: 1.4rem;
+    color: #F1C40F;
+    padding: 0 1rem;
+}
+
+hr{
+    margin-left: 10%;
+}
+.media{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+}
+
+.media i{
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.media i:hover{
+    color: #F1C40F;
+}
+
+
+
+
+/* --------------------------------------about------------------------------------------------------------- */
+.main-2{
+    background: url('./image/books_library_shelves_138556_1920x1080.jpg') no-repeat center center/cover;
+    height: 40vh;
+    margin-bottom: 5rem;
+}
+
+.about-us{
+    width: 80%;
+    margin: 4rem auto;
+    margin-bottom: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.about-us .about-img{
+    width: 80%;
+    margin: 1rem auto;
+    /* overflow: hidden; */
+    /* transform: rotate(-30deg); */
+}
+
+.about-us .about-img img{
+    box-shadow: 15px 15px 50px 10px #000;
+    width: 100%;
+    border-radius: 2rem;
+    margin-top: 4rem;
+}
+
+.about-us .about-detail{
+    margin: 1rem;
+}
+
+.about-us .about-detail h1{
+    color: #333;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+
+.about-us .about-detail p{
+    color:gray;
+}
+
+.mis-vis{
+    width:80%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+
+.mis-vis .mis{
+    width: 80%;
+    margin: 1rem auto;
+
+}
+
+
+.mis-vis .mis .mission .h2{
+   
+    padding: 1rem;
+    background: #F1C40F;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.mis-vis .mis .mission .p{
+    display: none;
+    padding: 1rem;
+    color: #999;
+    text-align: justify;
+}
+
+/* -----------------------------------gallery--------------------------------- */
+
+.sub-heading{
+    text-align: center;
+    margin: 3rem 0;
+    color: rgb(224,26,56);
+}
+
+
+.photo{
+    width: 80%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+
+.photo .pic{
+    width: 90%;
+    margin: 1rem auto;
+    overflow: hidden;
+}
+
+.photo .pic img{
+    width: 100%;
+
+}
+.photo .pic img:hover{
+    transform: scale(1.5);
+    /* filter:blur(2px) ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+    .main{
+        width: 100%;
+    }
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        grid:none;
+        flex-direction: column;
+        left: 0;
+        box-shadow: none;
+        overflow: hidden;
+    }
+    .nav-bar .call{
+        display: none;
+    }
+    .nav-bar .links ul{
+       display: inline;
+        font-size: 1.4rem;
+        /* width: 100%; */
+    }
+    .nav-bar .links ul li{
+        /* border-bottom: 1px solid gray; */
+        margin-bottom: .5rem;
+    }
+    .nav-bar .links ul li a:hover{
+        border: none;
+    }
+
+    .boxes{
+        display: inline;
+        top:1rem;
+        /* margin-bottom: 10rem; */
+    }
+    .boxes .box{
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+        border-radius: 0px;
+    }
+    .underline{
+        margin: 10rem auto;
+        /* background-color: #333; */
+    }
+
+    .underline .hr{
+        left: 40%;
+    }
+
+    .container{
+        /* width: 100%; */
+        display: inline;
+    }
+
+    .container .item{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .enquiry {
+        background-image: none;
+        margin-bottom:30rem;
+    }
+    .enquiry .grad{
+        grid:none;
+        display: inline;
+    }
+    .enquiry .grad .a h1{
+        font-size: 3rem;
+    }
+    .enquiry .grad :last-child form select::placeholder,
+    .enquiry form input::placeholder,
+    .enquiry form  textarea::placeholder{
+    color: #333;
+
+    }
+    .enquiry .grad :last-child form select,
+    .enquiry form input,
+    .enquiry form  textarea{
+        color: #333;
+    }
+    .enquiry .grad .link span{
+       color: #333;
+    }
+
+    .card{
+        display:inline;
+       text-align: center;
+       /* width: 100%; */
+    }
+
+    .card .c p{
+        padding: 2rem;
+        text-align: justify;
+    }
+
+
+    .student {
+        height: 100vh;
+    }
+    .student .views {
+        width: 100%;
+    }
+
+    .student .views .view .msg p{
+        font-size: 1.4rem;
+        /* padding: 2rem; */
+    }
+
+    .events .event{
+        display: inline;
+        border-bottom: 1px solid gray;
+    }
+    .events .event .date{
+        text-align: center;
+    }
+    footer{
+        height: 230vh;
+    }
+    footer .contain{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    footer .contain .menu .list li a{
+        margin: 0;
+    }
+    footer .contain .menu .list li {
+        text-align: center;
+        padding: .5rem;
+
+    }
+    footer .contain .menu .list li:hover{
+        background: #000;
+    }
+    footer .contain .menu .list li:hover a{
+        color: #F1C40F;
+    }
+
+
+    /* ----------------------about us -------------------------- */
+    .main-2{
+        height: 90vh;
+    }
+    .about-us{
+        display: inline;
+        
+    }
+    .about-us .about-img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about-us .about-img img{
+        box-shadow: none;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .about-us .about-detail{
+        padding: 1rem;
+    }
+
+    
+    .mis-vis{
+        display: inline;
+    }
+
+    /* -----------------gallety----------------------------------- */
+
+    .photo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: .2rem;
+        width: 90%;
+    }
+
+    .photo .pic{
+        width: 100%;
+        /* height: 4.3rem; */
+       
+    }
+}
